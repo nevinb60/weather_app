@@ -1,1 +1,1 @@
-Creating a simple weather map
+Creating a simple weather app
