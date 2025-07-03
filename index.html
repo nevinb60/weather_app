@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="/src/output.css">
+</head>
+<body>
+
+  <div class="header flex h-9 w-screen" >
+    <div class="container flex flex-row gap-1.5 justify-end">
+      <button id="weather-btn" class="bg-blue-300 hover:cursor-pointer active:bg-blue-500 p-2 rounded-xl ">search</button>
+      <input class=" flex border-2 border-black rounded-lg w-[200px]" title="search" type="text" id="search">
+    </div>
+  </div>
+
+  <div class=" h-screen w-screen flex justify-center " id="content ">
+
+    <div class="flex flex-col mt-10 bg-gray-400 p-2.5 h-fit rounded-2xl gap-7" id="weatherDiv">
+      <h2 id="location" class="text-center text-3xl"></h2>
+      <h1 id="tempToday" class="font-extrabold text-9xl text-center"></h1>
+      <div id="icon" class="text-8xl text-center"></div>
+      <h2 id="description" class="text-center text-2xl"></h2>
+      <div class="flex justify-center gap-6">
+        <h2 id="max-temp" class=""></h2>
+        <h2 id="low-temp"></h2>
+      </div>
+    </div>
+
+   
+
+    
+  </div>
+
+
+
+  <script src="get_weather.js"></script>    
+</body>
+
+</html>
